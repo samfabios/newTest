@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    margin: 2rem;
+}
+
+a {
+    color: red;
+}
+
+abbr {
+    color: purple;
+    background-color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
