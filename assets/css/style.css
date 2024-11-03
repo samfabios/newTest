@@ -1,8 +1,27 @@
-* {
-    background-color: #569cd6
+/* Reset default styles */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include box-sizing to account for padding and border */
+  } */
+
+  /* Style the hero image */
+  
+
+html {
+    margin:0;
+    padding: 0;
 }
 
-body {
-    color: #01d     
+h1 {
+    color:  firebrick;
 }
+
+mark {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 0px 5px;
+}
+
+
 
