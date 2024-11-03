@@ -10,27 +10,44 @@
         <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
     </head>
     <body>
-        <article>
-            <header>
-                <h1 id="primary-nav-label">Primary Navigation</h1>
-                <nav aria-labelledby="primary-nav-label"></nav>
-                <h2 id="secondary-nav-label">Secondary Navigation</h2>
-                <nav aria-labelledby="secondary-nav-label"></nav>
-                <img src="assets/images/sun-rising.jpg" alt="Captivating Introduction" title="Captivating Introduction" loading="lazy">
-                <h1>Captivating Nature</h1>
-            </header>
-        </article>
-        <main>
-            <section>
-                <h1>Hello Mother Fucker</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, iure!</p>
+        <header>
+            <section class="main-navigation">
+                <nav aria-labelledby="primary-nav-label">
+                    <h1 id="primary-nav-label">Primary Nav Label</h1>
+                    <ul>
+                        <li>
+                            <a href="#">Learn Html</a>
+                        </li>
+                        <li>
+                            <a href="#">Learn Css</a>
+                        </li>
+                        <li>
+                            <a href="#">Learn JavaScript</a>
+                        </li>
+                    </ul>
+                </nav>
             </section>
-            <aside>
+            <section class="secondary-nav-label">
+                <nav aria-labelledby="secondary-nav-label">
+                    <h1 id="secondary-nav-label">Secondary Nav Label</h1>
+                </nav>
+            </section>
+            <section class="hero">
+                <figure>
+                    <img src="assets/images/mushrooms.jpg" alt="mushrooms" title="Mushrooms in the forest" width="400" loading="lazy">
+                    <figcaption>It's Five O' Clock Somewhere</figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto rerum maiores debitis exercitationem ullam odio laborum incidunt placeat quaerat ad voluptatibus quia dicta totam, odit quisquam sequi quidem eius quae.
+                Excepturi vitae nulla in suscipit ullam dignissimos quaerat repellendus doloremque velit? Architecto, ipsam? Ullam earum aliquid sequi, architecto numquam reiciendis natus aliquam minima, voluptate vero ducimus magni sed, sunt consequatur.</p>
+            </section>
+        </header>
+        <main>
+            <section class="main-content">
                 <details>
-                    <summary>Guess the <mark>number of hours I code per day!</mark></summary>
-                    <span class="mark">I start 8 am and I write code for 3 hours every morning</span>
+                    <summary>Guess how <mark>many hours I code everyday!</mark></summary>
+                    <p>I wake up 8 am every morning and I keep coding till 12 am</p>
                 </details>
-            </aside>
+            </section>
         </main>
         <footer></footer>
     </body>
