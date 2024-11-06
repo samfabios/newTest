@@ -53,7 +53,7 @@ aside:hover  :focus {
 }
 
 table {
-    font-family: arial, sans-serif;
+    font-family: arial, Sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
@@ -61,7 +61,6 @@ table {
 td, th {
     border: 1px solid #dddddd;
     padding: 8px;
-    text-align: left;
 }
 
 tr:nth-child(even) {

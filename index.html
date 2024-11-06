@@ -58,6 +58,39 @@
             </aside>
             <br>
             <table>
+                <caption>Daily Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th scope="row">Product Name</th>
+                        <th scope="row">Productivity</th>
+                        <th scope="row">Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <td>Lee</td>
+                        <td>Nylon</td>
+                        <td>Stockholm</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <td>Lee</td>
+                        <td>Nylon</td>
+                        <td>Stockholm</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <td>Lee</td>
+                        <td>Nylon</td>
+                        <td>Stockholm</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            <br>
+            <form action="https://httpbin.org/get" method="get">
                 <fieldset>
                     <legend>Daily Schedule</legend>
                     <p>
@@ -99,18 +132,32 @@
                         <option value="other">Other</option>
                     </select>
                 </fieldset>
-                <!-- <fieldset>
+                <fieldset>
                     <legend>Your lovely food</legend>
-                    <label for="food">Your best food</label>
-                    <input type="text" name="food" id="food" list="food-list">
-                    <datalist id="food-list">
+                    <label for="snack">Your best snack</label>
+                    <input type="text" name="snack" id="snack" list="snack-list">
+                    <datalist id="snack-list">
                         <option value="Yogurt">
                         <option value="Cheese">
                         <option value="Bread">
                         <option value="Pizza">
                     </datalist>
-                </fieldset> -->
-            </table>
+                </fieldset>
+                <fieldset>
+                    <p>
+                        <input type="radio" name="food" id="tacos" value="tacos">
+                        <label for="tacos">Tacos</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="pizza">
+                        <label for="pizza">Pizza</label>
+                    </p>
+                </fieldset>
+            </form>
+            <br>
+            
+
+            
 
 </html>
 
