@@ -54,110 +54,28 @@
                 <details>
                     <summary>Get the answer how to achieve this:</summary>
                     <p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
                 </details>
             </aside>
             <br>
-            <table>
-                <caption>Daily Schedule</caption>
-                <thead>
-                    <tr>
-                        <th>&nbsp;</th>
-                        <th scope="row">Product Name</th>
-                        <th scope="row">Productivity</th>
-                        <th scope="row">Address</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <td>Lee</td>
-                        <td>Nylon</td>
-                        <td>Stockholm</td>
-                    </tr>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <td>Lee</td>
-                        <td>Nylon</td>
-                        <td>Stockholm</td>
-                    </tr>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <td>Lee</td>
-                        <td>Nylon</td>
-                        <td>Stockholm</td>
-                    </tr>
-                </tbody>
-                <tfoot></tfoot>
-            </table>
+           <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Daily Schedule</legend>
+                <input type="button" onclick="alert('Hello, mother fucker!')" value="Send me">
+            </fieldset>
             <br>
-            <form action="https://httpbin.org/get" method="get">
-                <fieldset>
-                    <legend>Daily Schedule</legend>
-                    <p>
-                        <label for="firstName">First Name:</label>
-                        <input type="text" name="firstName" id="firstName" placeholder="Sam" autocomplete="on" required autofocus>
-                    </p>
-                    <p>
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" name="lastName" id="lastName" placeholder="Jamal" autocomplete="on" required>
-                    </p>
-                    <p>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Your favorite Password" required>
-                </p>
-                <p>
-                    <label for="phone">Phone:</label>
-                    <input type="tel" name="phone" id="phone" placeholder="55555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
-                </p>
-                <p>  
-                    <label for="decade">Your Favorite Number:</label>
-                    <input type="number" name="decade" id="decade" min="1950" max="2025" step="5" value="2024">
-                </p>
-                </fieldset>
-                <fieldset>
-                    <legend>Favorite Coffee</legend>
-                    <label for="coffee">Your favorite coffee:</label>
-                    <select name="coffee" id="coffee" multiple size="5">
-                        <optgroup label="regular coffee">
-                            <option value="regular coffee">Regular Coffee</option>
-                            <option value="iced coffee">Iced Coffee</option>
-                        </optgroup>
-                        <optgroup label="espresso coffee">
-                            <option value="latte" selected>Latte</option>
-                            <option value="espresso">Espresso</option>
-                            <option value="cortado">Cortado</option>
-                            <option value="americano">Americano</option>
-                            <option value="cappuccino">Cappuccino</option>
-                        </optgroup>
-                        <option value="other">Other</option>
-                    </select>
-                </fieldset>
-                <fieldset>
-                    <legend>Your lovely food</legend>
-                    <label for="snack">Your best snack</label>
-                    <input type="text" name="snack" id="snack" list="snack-list">
-                    <datalist id="snack-list">
-                        <option value="Yogurt">
-                        <option value="Cheese">
-                        <option value="Bread">
-                        <option value="Pizza">
-                    </datalist>
-                </fieldset>
-                <fieldset>
-                    <p>
-                        <input type="radio" name="food" id="tacos" value="tacos">
-                        <label for="tacos">Tacos</label>
-                    </p>
-                    <p>
-                        <input type="radio" name="food" id="pizza">
-                        <label for="pizza">Pizza</label>
-                    </p>
-                </fieldset>
-            </form>
+            <label for="vol">Volume</>
+            <input type="range" name="vol" id="vol" min="0" max="100" step="10" value="10">
             <br>
+            <label for="gsearch">Search</label>
+            <input type="search" name="gsearch" id="gsearch" placeholder="Search">
+           </form>
+            <br>
+           
             
-
             
-
+            </main>
 </html>
 

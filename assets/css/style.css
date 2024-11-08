@@ -1,9 +1,9 @@
 /* Reset default styles */
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Include box-sizing to account for padding and border */
-  } */
+ }
 
   /* Style the hero image */
   
@@ -39,33 +39,13 @@ mark {
 
 aside {
     width: 30%;
-    padding:15px 5px;
-    margin-left: 15px;
-    float: right;
-    font-family: italic;
-    background-color: lightgray;
-    cursor: pointer;
-}
-
-aside:hover  :focus {
+    background-color: darkgreen;
     color: #fff;
-    background-color: red;
+    float: right;
+    padding: 15px 8px;
+    margin: 10px 0px;
 }
 
-table {
-    font-family: arial, Sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
 
 
 
